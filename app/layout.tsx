@@ -1,3 +1,6 @@
+// Topレベルのレイアウト ここで共通のレイアウトを定義したり、ResetCSSを適用したりする
+import '@/app/ui/global.css';
+
 export default function RootLayout({
   children,
 }: {
